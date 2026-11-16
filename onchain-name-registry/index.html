@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>On-Chain Name Registry</title>
+<style>body{background:#090d16;color:#f8fafc;font-family:'Inter',monospace;padding:36px;margin:0}
+.container{max-width:820px;margin:auto}
+.search-box{padding:28px;border:1px solid #1e293b;border-radius:16px;background:#111827;text-align:center;margin-bottom:24px;box-shadow:0 10px 30px rgba(0,0,0,0.4)}
+input{width:75%;padding:14px 18px;border-radius:10px;border:1px solid #38bdf8;background:#0f172a;color:#fff;font-size:16px;outline:none}
+.status{margin-top:14px;font-size:14px;color:#34d399}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.card{padding:20px;border:1px solid #334155;border-radius:12px;background:#111827}
+.badge{background:#0284c7;color:#e0f2fe;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:bold;margin-left:8px}
+button{padding:9px 14px;margin:6px 4px 0 0;border-radius:7px;border:none;background:#38bdf8;color:#0f172a;font-weight:bold;cursor:pointer}
+button.sec{background:#334155;color:#f8fafc}</style></head>
+<body><div class="container">
+<div class="search-box"><h1>🔍 On-Chain Name Registry</h1>
+<p style="color:#94a3b8">Instant Name Availability & Reverse Address Lookup (0.01 ETH Fee)</p>
+<input value="vitalik.se2" readonly />
+<div class="status">✓ <strong>vitalik.se2</strong> is available! — <button>Register (0.01 ETH)</button></div></div>
+<h3>📂 Owned Names & Reverse Resolution Dashboard</h3>
+<div class="grid">
+<div class="card"><div><strong>builder.eth</strong> <span class="badge">PRIMARY NAME</span></div>
+<p style="font-size:13px;color:#94a3b8">Owner: 0xdCCa...E76D<br>Resolves to: 0xdCCa...E76D</p>
+<button class="sec">setResolvedAddress()</button><button class="sec">transferName()</button></div>
+<div class="card"><div><strong>alpha-node.eth</strong></div>
+<p style="font-size:13px;color:#94a3b8">Owner: 0xdCCa...E76D<br>Resolves to: 0xdCCa...E76D</p>
+<button>⭐ setPrimaryName()</button><button class="sec">setResolvedAddress()</button><button class="sec">transferName()</button></div>
+</div></div></body></html>
